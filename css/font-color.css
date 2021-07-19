@@ -1,0 +1,57 @@
+/* import font */
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue.ttf');
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('fonts/MyriadPro.ttf');
+}
+
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('fonts/Cocogoose.ttf');
+}
+
+/* ---- */
+
+/* define global color */
+
+:root {
+    --color1: #39887e;
+    --color2: #e83f82;
+}
+
+/* --- */
+
+/* define font and color class */
+
+.font-bebas {
+    font-family: 'BebasNeue', sans-serif;
+}
+
+.font-myriad {
+    font-family: 'MyriadPro', sans-serif;
+}
+
+.font-cocogoose {
+    font-family: 'Cocogoose', sans-serif;
+}
+
+.bg-color1 {
+    background-color: var(--color1) !important;
+}
+
+.bg-color2 {
+    background-color: var(--color2) !important;
+}
+
+.color1 {
+    color: var(--color1) !important;
+}
+
+.color2 {
+    color: var(--color2) !important;
+}
