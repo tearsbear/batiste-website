@@ -387,3 +387,9 @@ html {
         padding-bottom: 200px;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .section-products img {
+        width: 400px;
+    }
+}
